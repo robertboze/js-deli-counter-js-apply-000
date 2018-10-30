@@ -1,9 +1,7 @@
-function takeANumber(noOfPeople,name){
+function takeANumber(line, name){
+  line.push(name);
 
-var pos = noOfPeople.length()+2;
+  console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
 
-return "Welcome,"+ name +" ." + "You are number" +pos + "in line."
-
-
-
+  return "Welcome, " + name + ". You are number " + line.length + " in line."
 }
