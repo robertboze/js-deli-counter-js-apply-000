@@ -12,6 +12,6 @@ function nowServing(line) {
     return "There is nobody waiting to be served!"
   } else {
     //console.log("Currently serving " + line.shift());
-    return "Currently serving " + line.shift();
+    return "Currently serving " + line.shift()+".";
   }
 }
